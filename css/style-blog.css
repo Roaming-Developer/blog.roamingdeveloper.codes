@@ -102,4 +102,8 @@ footer hr {
         height: 200px;
     }
 
+    .h-one-rem{
+        font-size: 1.8rem;
+    }
+
 }
