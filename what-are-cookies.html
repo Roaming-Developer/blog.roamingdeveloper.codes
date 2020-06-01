@@ -98,7 +98,7 @@
                             <img class="img-fluid m-text-center" src="./images/fig-3.PNG" alt="">
                         </li>
                         <li>
-                            <p>Now <i class="fa fa-redo-alt ml-1 mr-1"></i>reload the page. Now your name is reset to Anonymous and you need to Enter your <strong>name</strong> again.</p>
+                            <p>Now <a class="h-red" href="./what-are-cookies.html"><i class="fa fa-redo-alt ml-1 mr-1"></i></a> reload the page. Now your name is reset to Anonymous and you need to Enter your <strong>name</strong> again.</p>
                         </li>
                     </ol>
                 </p>
@@ -152,17 +152,15 @@
     <script>
         function getUserName() {
             if(localStorage.getItem("userName") === "Anonymous" || localStorage.getItem("userName") === null) {
-                swal("Tell us your name!", {
+                swal("Tell us your name! (by default it's Anonymous)", {
                 content: "input",
                 })
                 .then((value) => {
                     if(value === ""){
                         localStorage.setItem("userName","Anonymous");
-                        console.log(localStorage.getItem("userName"))
                     } else {
                         localStorage.setItem("userName",value);
                         setName();
-                        console.log(localStorage.getItem("userName"))
                     }
                 });
             } else {
@@ -176,11 +174,10 @@
                 .then((value) => {
                     if(value === ""){
                         localStorage.setItem("userName","Anonymous");
-                        console.log(localStorage.getItem("userName"))
                     } else {
                         localStorage.setItem("userName",value);
                         setName();
-                        console.log(localStorage.getItem("userName"))
+                        window.location.href = "./what-are-cookies.html#main";
                     }
                 });
         }
