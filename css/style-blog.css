@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .text-vertical {
     margin-top: auto;
     margin-bottom: auto;
@@ -5,6 +9,57 @@
 
 footer{
     background-color: #D73F42;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover{
+    color: #fff;
+
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #D73F42;
+    border-radius: 50px;
+    border-color: #D73F42;
+}
+
+.fa-angle-down{
+    color: #D73F42;
+
+}
+
+#userName{
+    color: #D73F42;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: rgb(180, 32, 34);
+    border-radius: 50px;
+    border-color: rgb(180, 32, 34);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #D73F42;
+    border-color: #D73F42;
+}
+
+footer hr {
+    background-color: #fff;
+    width: 40%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.c-img-height{
+    height: 300px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -26,6 +81,10 @@ footer{
         height: 150px;
         width: 150px;
         text-align: center;
+    }
+
+    .c-img-height{
+        height: 200px;
     }
 
 }

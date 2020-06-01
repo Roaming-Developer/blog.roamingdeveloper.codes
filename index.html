@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Roaming Developer - We Develop Web applications based upon various technologies.Here We'll share tech Updates and news. It's our Blog">
+    <meta name="description"
+        content="Roaming Developer - We Develop Web applications based upon various technologies.Here We'll share tech Updates and news. It's our Blog">
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://roamingdeveloper.codes/" />
     <meta name="theme-color" content="#D73F42">
     <link rel="shortcut icon" href="https://roamingdeveloper.codes/fevicon.png" type="image/png">
-    <link rel="stylesheet" href="js/function.js">
     <link href="https://fonts.googleapis.com/css?family=Alata|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://roamingdeveloper.codes/css/stylesheet.css"> -->
@@ -17,14 +18,15 @@
     <script src="https://kit.fontawesome.com/425ce35459.js" crossorigin="anonymous"></script>
     <title>Roaming Developer - Blogs</title>
 </head>
-<body>
-      <nav class="navbar navbar-light bg-light">
-          <div class="container">
-            <span class="navbar-brand h1 logo" style="color: #D73F42;">Blogs [.] Roaming Developer [.] Codes</span>
-          </div>
-      </nav>
 
-      <section id="hero-blog">
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a href="index.html"><span class="navbar-brand h1 logo" style="color: #D73F42;">Blogs [.] Roaming Developer [.] Codes</span></a>
+        </div>
+    </nav>
+
+    <section id="hero-blog">
         <div class="container">
             <div class="row flex-column-reverse flex-md-row">
                 <div class="col-md-6 text-vertical m-text-center">
@@ -36,34 +38,51 @@
                 </div>
             </div>
         </div>
-      </section>
+    </section>
+    
+    <div class="container text-center">
+        <a href="#main"><i class="fa fa-angle-down"></i></a>
+    </div>
+
+    <section id="main">
         <div class="container mt-5">
             <div class="row m-text-center">
                 <div class="col-md-3">
                     <img class="img-fluid p-3 blog-icon" src="./images/cookies.svg" alt="">
                 </div>
                 <div class="col-md-9 text-vertical">
-                    <h3>What are the Cookies</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, minus cumque praesentium dolores dignissimos inventore et nostrum officiis, non, doloremque porro asperiores voluptate temporibus. Nisi excepturi pariatur amet blanditiis expedita!</p>
-                    <button class="btn btn-primary">Read full Blog</button>
+                    <h3 class="font-weight-bold">What are the Cookies</h3>
+                    <p class="text-justify">
+                        Cookies are files that contain small pieces of data — like a username and password — that are exchanged between a user's computer and a web server to identify specific users and improve their browsing experience.
+                    </p>
+                    <p class="font-weight-bold"><i class="fa fa-user-tie"></i> @akashprasher<i class="ml-3 fa fa-calendar-week"></i> 01-June-2020</p>
+                    <a href="what-are-cookies.html"><button class="btn btn-primary font-weight-bold">Read More <i class="fa fa-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
 
-        <footer>
-            <div class="container mt-5">
-                <div class="row pt-3 pb-3">
-                    <div class="col-sm-6">
-                        <h5>Links</h5>
-                        <p><a href="https://roamingdeveloper.codes/">Projects</a></p>
-                    </div>
-                    <div class="col-sm-6">
-                        <h5>Links</h5>
-                        <p><a href="https://roamingdeveloper.codes/">Projects</a></p>                        
-                    </div>
+    </section>
+
+    <footer>
+        <div class="container mt-5">
+            <div class="row pt-3 pb-3">
+                <div class="col">
+                    <h5>Links</h5>
+                    <hr>
+                    <p><a href="https://roamingdeveloper.codes/" target="_blank ">Projects</a></p>
+                </div>
+                <div class="col">
+                    <h5>Contact</h5>
+                    <hr>
+                    <p><a href="mailto:hello@roamingdeveloper.codes">hello@roamingdeveloper.codes</a></p>
                 </div>
             </div>
-        </footer>
-    
+            <div class="text-center pb-2">
+                <p class="h6">&copy; Roaming Developer</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/main.js"></script>
 </body>
+
 </html>

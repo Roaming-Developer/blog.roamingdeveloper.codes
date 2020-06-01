@@ -1,48 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Roaming Developer - We Develop Web applications based upon various technologies.Here We'll share tech Updates and news. It's our Blog">
+    <meta name="description"
+        content="Roaming Developer - We Develop Web applications based upon various technologies.Here We'll share tech Updates and news. It's our Blog">
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://roamingdeveloper.codes/" />
     <meta name="theme-color" content="#D73F42">
     <link rel="shortcut icon" href="https://roamingdeveloper.codes/fevicon.png" type="image/png">
-    <link rel="stylesheet" href="js/function.js">
-    <link href="https://fonts.googleapis.com/css?family=Alata|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://roamingdeveloper.codes/css/stylesheet.css">
+    <!-- <link rel="stylesheet" href="https://roamingdeveloper.codes/css/stylesheet.css"> -->
     <link rel="stylesheet" href="./css/style-blog.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://kit.fontawesome.com/425ce35459.js" crossorigin="anonymous"></script>
     <title>Roaming Developer - What Are Cookies</title>
 </head>
-<body>
-      <nav class="navbar navbar-light bg-light">
-          <div class="container">
-            <span class="navbar-brand mb-0 h1 logo" style="color: #D73F42;">Blogs [.] Roaming Developer [.] Codes</span>
-          </div>
-      </nav>
 
-      <section id="hero-blog">
+<body onload="getUserName();">
+    <nav class="navbar navbar-light bg-light">
         <div class="container">
+            <a href="index.html"><span class="navbar-brand h1 logo" style="color: #D73F42;">Blogs [.] Roaming Developer
+                    [.] Codes</span></a>
+        </div>
+    </nav>
+
+    <section id="hero-blog">
+        <div class="container mt-5">
             <div class="row flex-column-reverse flex-md-row">
                 <div class="col-md-6 text-vertical m-text-center">
-                    <h1 class="text-vertical">It's Our Blog</h1>
-                    <p class="lead">find tech articles</p>
+                    <h1 class="text-vertical">What are the Cookies?</h1>
+                    <!-- <p class="lead">find tech articles</p> -->
                 </div>
-                <div class="col-md-6">
-                    <img class="img-fluid p-3" src="./images/hero-head.jpg" alt="blog header image">
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid p-3 c-img-height" src="./images/cookies.svg" alt="blog header image">
                 </div>
             </div>
         </div>
-      </section>
+    </section>
+    <div class="container text-center">
+        <a href="#main"><i class="fa fa-angle-down"></i></a>
+    </div>
+    <!-- <span id="userName">Anonymous</span> <span onclick="getUserName();">Change Name</span> -->
+    <main>
+        <section id="main" class="mt-5">
+            <div class="container">
+                <h3>Okay <span id="userName">Anonymous</span>! Here is the defination of Cookies.</h3>
+            </div>
+        </section>
 
-      <section>
-          <div>
+        <div class="container">
+            <a href="#" onclick="changeUserName();">Change Name</a>
+        </div>
 
-          </div>
-      </section>
-    
+        <footer>
+            <div class="container mt-5">
+                <div class="row pt-3 pb-3">
+                    <div class="col">
+                        <h5>Links</h5>
+                        <hr>
+                        <p><a href="https://roamingdeveloper.codes/" target="_blank ">Projects</a></p>
+                    </div>
+                    <div class="col">
+                        <h5>Contact</h5>
+                        <hr>
+                        <p><a href="mailto:hello@roamingdeveloper.codes">hello@roamingdeveloper.codes</a></p>
+                    </div>
+                </div>
+                <div class="text-center pb-2">
+                    <p class="h6">&copy; Roaming Developer</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        function getUserName() {
+            if(localStorage.getItem("userName") === "Anonymous" || localStorage.getItem("userName") === null) {
+                swal("Tell us your name!", {
+                content: "input",
+                })
+                .then((value) => {
+                    if(value === ""){
+                        localStorage.setItem("userName","Anonymous");
+                        console.log(localStorage.getItem("userName"))
+                    } else {
+                        localStorage.setItem("userName",value);
+                        setName();
+                        console.log(localStorage.getItem("userName"))
+                    }
+                });
+            } else {
+                setName();
+            }
+        }
+        function changeUserName() {
+            swal("Tell us your name!", {
+                content: "input",
+                })
+                .then((value) => {
+                    if(value === ""){
+                        localStorage.setItem("userName","Anonymous");
+                        console.log(localStorage.getItem("userName"))
+                    } else {
+                        localStorage.setItem("userName",value);
+                        setName();
+                        console.log(localStorage.getItem("userName"))
+                    }
+                });
+        }
+    </script>
+
+    <script src="./scripts/main.js"></script>
 </body>
+
 </html>
