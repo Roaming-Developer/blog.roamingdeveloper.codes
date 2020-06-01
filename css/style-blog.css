@@ -1,0 +1,31 @@
+.text-vertical {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer{
+    background-color: #D73F42;
+}
+
+@media only screen and (max-width: 600px) {
+    .m-text-center {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        text-align: center;
+        font-size: 1rem;
+        line-height: inherit;
+        white-space: nowrap;
+        margin-right: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .blog-icon{
+        height: 150px;
+        width: 150px;
+        text-align: center;
+    }
+
+}
