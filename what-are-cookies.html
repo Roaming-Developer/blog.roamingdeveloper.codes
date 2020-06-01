@@ -23,7 +23,7 @@
 <body onload="getUserName();">
     <nav class="navbar navbar-light bg-light">
         <div class="container">
-            <a href="index.html"><span class="navbar-brand h1 logo" style="color: #D73F42;">Blogs [.] Roaming Developer
+            <a href="index.html"><span class="navbar-brand h1 logo font-weight-bold" style="color: #D73F42;">Blogs [.] Roaming Developer
                     [.] Codes</span></a>
         </div>
     </nav>
@@ -32,8 +32,7 @@
         <div class="container mt-5">
             <div class="row flex-column-reverse flex-md-row">
                 <div class="col-md-6 text-vertical m-text-center">
-                    <h1 class="text-vertical">What are the Cookies?</h1>
-                    <!-- <p class="lead">find tech articles</p> -->
+                    <h1 class="text-vertical font-weight-bold h-red">What are the Cookies?</h1>
                 </div>
                 <div class="col-md-6 text-center">
                     <img class="img-fluid p-3 c-img-height" src="./images/cookies.svg" alt="blog header image">
@@ -42,14 +41,42 @@
         </div>
     </section>
     <div class="container text-center">
-        <a href="#main"><i class="fa fa-angle-down"></i></a>
+        <a href="#main" title="Move to main content"><i class="fa fa-angle-down"></i></a>
     </div>
     <!-- <span id="userName">Anonymous</span> <span onclick="getUserName();">Change Name</span> -->
-    <main>
-        <section id="main" class="mt-5">
+    <main id="main">
+        <section class="mt-5">
             <div class="container">
-                <h3>Okay <span id="userName">Anonymous</span>! Here is the defination of Cookies.</h3>
+                <h3 class="font-weight-bold h-red">Here are some technical basics!</h3><hr>
             </div>
+            <div class="container">
+                <h4 class="h-red">Okay <span class="font-weight-bold" id="userName" title="Your Name :)">Anonymous</span>! Here is the defination of Cookies.</h4>
+                <p>A Cookie is a String of information that a website stores on a visitor's device(Desktop, Mobile etc.),
+                    and that the visitor's browser provides to website each time the visitor returns. 
+                </p>
+            </div>
+            <div class="container">
+                <h4 class="h-red">Why we use Cookies?</h4>
+                <p>
+                    We use cookies and other technologies to ensure everyone who uses website has the best possible
+                    experience. Cookies are used to identify and track visitors, their usage of website, and their
+                    website access preferences. 
+                </p>
+            </div>
+            <div class="container">
+                <h4 class="h-red">When are Cookies Created?</h4>
+                <p>
+                    Writing data to a cookie is usually done when a new webpage is loaded - for example after a 'submit' 
+                    button is pressed the data handling page would be responsible for storing the values in a cookie. If 
+                    the user has elected to disable cookies then the write operation will fail, and subsequent sites which 
+                    rely on the cookie will either have to take a default action, or prompt the user to re-enter the information 
+                    that would have been stored in the cookie.
+                </p>
+            </div>
+        </section>
+
+        <section>
+
         </section>
 
         <div class="container">

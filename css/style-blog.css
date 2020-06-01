@@ -66,6 +66,17 @@ footer hr {
     height: 300px;
 }
 
+.text-fade-lr{
+    background: linear-gradient(to right, rgb(0, 0, 0) 20%, transparent 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h-red{
+    color: #D73F42;
+}
+
 @media only screen and (max-width: 600px) {
     .m-text-center {
         text-align: center;
