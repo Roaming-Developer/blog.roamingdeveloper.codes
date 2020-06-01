@@ -76,37 +76,78 @@
             </div>
         </section>
 
-        <section>
-
-        </section>
-
-        <div class="container">
-            <a href="#" onclick="changeUserName();">Change Name</a>
-        </div>
-
-        <footer>
-            <div class="container mt-5">
-                <div class="row pt-3 pb-3">
-                    <div class="col">
-                        <h6 class="font-weight-bold">Important Links</h6>
-                        <hr>
-                        <p class="mb-0"><i class="fa fa-home mr-1"></i><a href="https://blogs.roamingdeveloper.codes/" target="_blank ">Home</a></p>
-                        <p class="mb-0"><i class="fa fa-cube mr-1"></i><a href="https://roamingdeveloper.codes/" target="_blank ">Projects</a></p>
-                    </div>
-                    <div class="col">
-                        <h6 class="font-weight-bold">Contact</h6>
-                        <hr>
-                        <p class="mb-0"><i class="fa fa-at mr-1"></i> <a href="mailto:hello@roamingdeveloper.codes">Mail</a></p>
-                        <p class="mb-0"><i class="fa fa-github mr-1"></i> <a href="mailto:hello@roamingdeveloper.codes">Github</a></p>
-                        <p class="mb-0"><i class="fa fa-linkedin mr-1"></i> <a href="mailto:hello@roamingdeveloper.codes">Linkedin</a></p>
-                    </div>
-                </div>
-                <div class="text-center pb-2">
-                    <p class="h6 font-weight-bold">&copy; Roaming Developer</p>
-                </div>
+        <section class="mt-5">
+            <div class="container">
+                <h3 class="font-weight-bold h-red">Let's Understand by Example</h3><hr>
+                <h4 class=""><i class="fa fa-trash fa-sm mr-1"></i>Try to <span class="h-red">delete</span> Cookies.</h4>
             </div>
-        </footer>
+            <div class="container">
+                <p>
+                    Your name is <span class="font-weight-bold" id="userName_rep">Anonymous</span>. We actually don't know your Name
+                    at server side. This name is loacally saved in your own browser and now whenever you reload or visit this page you
+                    don't need to enter your name again and again. Your browser automatically update the value of <strong>name</strong> previously entered
+                    by you.<br>
+                    Now Let's delete the value of <strong>name</strong> from browser. Just follow these instructions<br>
+                    <ol>
+                        <li class="pb-3">
+                            <p>Click on the lock icon on your browser(Just before your URL) and find cookies option.</p>
+                            <img class="img-fluid m-text-center" src="./images/fig-2.PNG" alt="">
+                        </li>
+                        <li>
+                            <p>Now select the cookie from the list and Remove it. And press Done.</p>
+                            <img class="img-fluid m-text-center" src="./images/fig-3.PNG" alt="">
+                        </li>
+                        <li>
+                            <p>Now <i class="fa fa-redo-alt ml-1 mr-1"></i>reload the page. Now your name is reset to Anonymous and you need to Enter your <strong>name</strong> again.</p>
+                        </li>
+                    </ol>
+                </p>
+            </div>
+            <div class="container mt-5">
+                <h4 class=""><i class="fa fa-toggle-on mr-1"></i>Try to <span class="h-red">modify</span> Cookies.</h4>
+            </div>
+            <div class="container">
+                <ol>
+                    <li>
+                        <p>Simply Click on the button and you'll get a pop-up and Just enter new <strong></strong></p>
+                        <a href="#" onclick="changeUserName();"><button class="btn btn-primary">Change Name <i class="far fa-edit ml-1"></i></button></a>
+                    </li>
+                    <li class="mt-3">
+                        <p>Now Check! <strong>Name</strong> value is changed.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-5 text-center">
+                <h4 class="font-weight-bold m-text-center blink">❤️</h4>
+                <h4 class="font-weight-bold m-text-center">Hope you like the article.</h4>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="container mt-5">
+            <div class="row pt-3 pb-3">
+                <div class="col">
+                    <h6 class="font-weight-bold">Important Links</h6>
+                    <hr>
+                    <p class="mb-0"><i class="fa fa-home mr-1"></i><a href="https://blogs.roamingdeveloper.codes/" target="_blank ">Home</a></p>
+                    <p class="mb-0"><i class="fa fa-cube mr-1"></i><a href="https://roamingdeveloper.codes/" target="_blank ">Projects</a></p>
+                </div>
+                <div class="col">
+                    <h6 class="font-weight-bold">Contact</h6>
+                    <hr>
+                    <p class="mb-0"><i class="fa fa-at mr-1"></i> <a href="mailto:hello@roamingdeveloper.codes">Mail</a></p>
+                    <p class="mb-0"><i class="fa fa-github mr-1"></i> <a href="https://github.com/akashprasher">Github</a></p>
+                    <p class="mb-0"><i class="fa fa-linkedin mr-1"></i> <a href="https://linkedin.com/in/akashprasher">Linkedin</a></p>
+            </div>
+            </div>
+            <div class="text-center pb-2">
+                <p class="h6 font-weight-bold">&copy; Roaming Developer</p>
+            </div>
+        </div>
+    </footer>
 
     <script>
         function getUserName() {
