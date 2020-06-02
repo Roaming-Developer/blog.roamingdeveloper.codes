@@ -117,9 +117,17 @@ footer hr {
     100%{
         transform: scale(0.8);
     }
-    /* from {left: 0px;}
-    to {left: 200px;} */
   }
+
+ ::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #D73F42;
+}
+
+::selection {
+  color: #fff;
+  background:#D73F42;
+}
 
 @media only screen and (max-width: 600px) {
     .m-text-center {
