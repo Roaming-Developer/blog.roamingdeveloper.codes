@@ -151,7 +151,7 @@
 
     <script>
         function getUserName() {
-            if(localStorage.getItem("userName") === "Anonymous" || localStorage.getItem("userName") === null) {
+            if(localStorage.getItem("userName") === "Anonymous" || localStorage.getItem("userName") === null || localStorage.getItem("userName") === "null") {
                 swal("Tell us your name! (by default it's Anonymous)", {
                 content: "input",
                 })
