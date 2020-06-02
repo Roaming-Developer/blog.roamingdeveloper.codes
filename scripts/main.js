@@ -1,7 +1,3 @@
-// let getUser = document.getElementById("userName");
-
-// getUser = write(localStorage.getItem("userName"));
-
 function setName(){
     if(localStorage.getItem("userName") === "null") {
         localStorage.setItem("userName", "Anonymous");
