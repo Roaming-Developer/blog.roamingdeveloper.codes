@@ -94,6 +94,14 @@ footer hr {
     color: #D73F42;
 }
 
+.h-red-ho{
+    color: #D73F42;
+}
+
+.h-red-ho:hover{
+    color: rgb(199, 46, 49);
+}
+
 .blink{
   position: relative;
   animation: beat 2s infinite;
