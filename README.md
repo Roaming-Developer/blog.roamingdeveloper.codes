@@ -2,7 +2,7 @@
 
 #  Roaming Developer [.] Code's BLOG
 
-A static website for wrting technical articles and blogs. Anyone from world can contribute and can write their technical article here.
+A static website for writing technical articles and blogs. Anyone from the world can contribute and can write their technical article here.
 
 ## WE ❤️ OPEN SOURCE
 
@@ -12,7 +12,7 @@ This website is open for everyone and free to use. __NO ADS NOTHING, TOTALLY NON
 
 ##### Step First
 
-Forking is the first step and will remain the first step for contrubuting to Open Source. Afeter forking open it in your local machine. And then make appropriate changes.
+Forking is the first step and will remain the first step for contributing to Open Source. After forking opens it in your local machine. And then make appropriate changes.
 _Don't know how to fork and what is opensource. refer this [link](https://guides.github.com/introduction/git-handbook/)_
 
 ##### Step Two
@@ -21,7 +21,7 @@ Create a new file in [Article](./Article) folder with .html extension.
 
 ##### Step Three
 
-Now copy the content of file [template](./template_for_article/template.html) and copy it in you newly created File.
+Now copy the content of the file [template](./template_for_article/template.html) and copy it into your newly created File.
 
 ##### Step Four
 
@@ -35,4 +35,4 @@ Now update your Article Link in the [index](./index.html) file.
 
 __Now You Good to Go. Now you just need to make a Pull Request(aka PR)__
 
-###### Deployment and Hoting - Proudly hosted at GITHUB and Deplyed using NETLIFY.
+###### Deployment and Hosting - Proudly hosted at GITHUB and Deployed using NETLIFY.
