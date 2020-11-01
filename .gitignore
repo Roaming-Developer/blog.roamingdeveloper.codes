@@ -1,1 +1,5 @@
-./*.log
+**/logs
+**/logs/debug.log
+*.log
+*.log
+!important.log
