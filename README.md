@@ -12,7 +12,27 @@ This website is open for everyone and free to use. __NO ADS NOTHING, TOTALLY NON
 
 ##### Step First
 
+Forking is the first step and will remain the first step for contrubuting to Open Source. Afeter forking open it in your local machine. And then make appropriate changes.
+_Don't know how to fork and what is opensource. refer this [link](https://guides.github.com/introduction/git-handbook/)_
 
+##### Step Two
+
+Create a new file in [Article](./Article) folder with .html extension.
+
+##### Step Three
+
+Now copy the content of file [template](./template_for_article/template.html) and copy it in you newly created File.
+
+##### Step Four
+
+Follow the instructions given within the file template.html and write your Article there.
+For images, create a new folder within the [images](./images) folder and use them in your article.
+
+##### Last Step
+
+Now update your Article Link in the [index](./index.html) file.
+
+
+__Now You Good to Go. Now you just need to make a Pull Request(aka PR)__
 
 ###### Deployment and Hoting - Proudly hosted at GITHUB and Deplyed using NETLIFY.
-
