@@ -2,7 +2,7 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,7 +11,7 @@ html{
     margin-bottom: auto;
 }
 
-footer{
+footer {
     background-color: #D73F42;
     color: #fff;
 }
@@ -20,19 +20,19 @@ footer a {
     color: #fff;
 }
 
-footer a:hover{
+footer a:hover {
     color: #fff;
 
 }
 
-.btn-primary{
+.btn-primary {
     color: #fff;
     background-color: #D73F42;
     border-radius: 50px;
     border-color: #D73F42;
 }
 
-.fa-angle-down{
+.fa-angle-down {
     color: #D73F42;
 
 }
@@ -51,21 +51,23 @@ footer a:hover{
 }
 
 .swal-button:not([disabled]):hover {
-        background-color: rgb(180, 32, 34);
-    }
+    background-color: rgb(180, 32, 34);
+}
 
-#userName{
+#userName {
     color: #D73F42;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: #fff;
     background-color: rgb(180, 32, 34);
     border-radius: 50px;
     border-color: rgb(180, 32, 34);
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #D73F42;
     border-color: #D73F42;
@@ -79,54 +81,57 @@ footer hr {
     margin-bottom: 0px;
 }
 
-.c-img-height{
+.c-img-height {
     height: 300px;
 }
 
-.text-fade-lr{
+.text-fade-lr {
     background: linear-gradient(to right, rgb(0, 0, 0) 20%, transparent 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.h-red{
+.h-red {
     color: #D73F42;
 }
 
-.h-red-ho{
+.h-red-ho {
     color: #D73F42;
 }
 
-.h-red-ho:hover{
+.h-red-ho:hover {
     color: rgb(199, 46, 49);
 }
 
-.blink{
-  position: relative;
-  animation: beat 2s infinite;
+.blink {
+    position: relative;
+    animation: beat 2s infinite;
 }
 
 @keyframes beat {
-    0%{
+    0% {
         transform: scale(0.8);
     }
-    50%{
+
+    50% {
         transform: scale(1);
     }
-    100%{
+
+    100% {
         transform: scale(0.8);
     }
-  }
+}
 
- ::-moz-selection { /* Code for Firefox */
-  color: #fff;
-  background: #D73F42;
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: #D73F42;
 }
 
 ::selection {
-  color: #fff;
-  background:#D73F42;
+    color: #fff;
+    background: #D73F42;
 }
 
 @media only screen and (max-width: 600px) {
@@ -144,17 +149,17 @@ footer hr {
         margin-bottom: 0rem;
     }
 
-    .blog-icon{
+    .blog-icon {
         height: 150px;
         width: 150px;
         text-align: center;
     }
 
-    .c-img-height{
+    .c-img-height {
         height: 200px;
     }
 
-    .h-one-rem{
+    .h-one-rem {
         font-size: 1.8rem;
     }
 
