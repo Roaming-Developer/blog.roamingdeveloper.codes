@@ -8,5 +8,11 @@ A static website for wrting technical articles and blogs. Anyone from world can 
 
 This website is open for everyone and free to use. __NO ADS NOTHING, TOTALLY NON-PROFIT__.
 
+#### How to Contribute
+
+##### Step First
+
+
+
 ###### Deployment and Hoting - Proudly hosted at GITHUB and Deplyed using NETLIFY.
 
