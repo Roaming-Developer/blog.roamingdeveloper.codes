@@ -6,7 +6,8 @@ A static website for wrting technical articles and blogs. Anyone from world can 
 
 #### WE ❤️ OPEN SOURCE
 
-This website is open for everyone and free to use. NO ADS NOTHING, TOTALLY NON-PROFIT.
+This website is open for everyone and free to use. __NO ADS NOTHING, TOTALLY NON-PROFIT__.
 
 ###### Deployment and Hoting
-Proudly hosted at GITHUB and Deplyed using NETLIFY.
+Proudly hosted at __GITHUB__ and Deplyed using __NETLIFY__.
+
